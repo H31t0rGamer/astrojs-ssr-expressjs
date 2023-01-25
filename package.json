@@ -1,0 +1,19 @@
+{
+  "name": "astro-ssr-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "build:pnpm": "cd frontend && pnpm build",
+    "build:npm": "cd frontend && npm build",
+    "build:yarn": "cd frontend && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
